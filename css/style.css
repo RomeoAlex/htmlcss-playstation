@@ -9,3 +9,12 @@
     width:50%;
     
 }
+/* nav */
+.menu_main li{
+    list-style: none;
+    display: inline-block;
+}
+.menu_right li{
+    list-style: none;
+    display: inline-block;
+}
