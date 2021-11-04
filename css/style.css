@@ -15,6 +15,7 @@
 /* nav */
 nav{
     height:120px ;
+    background-color: white;
 }
 .menu_main li{
     list-style: none;
@@ -29,8 +30,9 @@ nav{
     margin-top: 200px;
     width: 100%;
     background-image: url("../img/jumbo-bg.png");
-    background-repeat: none;
-    background-position: center;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: contain;
     /* test */
     height:800px;
 }
