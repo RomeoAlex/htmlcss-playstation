@@ -1,6 +1,9 @@
 .back_black{
     background-color: black;
-    height:100px;
+    height:80px;
+}
+.my_fixed{
+    z-index: 1;
 }
 .logo{
     padding: 20px;
@@ -10,6 +13,9 @@
     
 }
 /* nav */
+nav{
+    height:120px ;
+}
 .menu_main li{
     list-style: none;
     display: inline-block;
@@ -17,4 +23,17 @@
 .menu_right li{
     list-style: none;
     display: inline-block;
+}
+/* JUMBOTRON */
+.jumbotron_back{
+    margin-top: 200px;
+    width: 100%;
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: none;
+    background-position: center;
+    /* test */
+    height:800px;
+}
+.jumbotron_back img{
+    /* width: 100%; */
 }
