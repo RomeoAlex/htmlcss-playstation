@@ -1,21 +1,31 @@
 .back_black{
     background-color: black;
-    height:80px;
+    height:30px;
 }
 .my_fixed{
     z-index: 1;
 }
 .logo{
-    padding: 20px;
+    /* margin:10px 10px; */
+    height:20px;
 }
-.logo img{
-    width:50%;
-    
+.my_btn{
+    text-decoration: none;
+    padding:10px  15px;
+    border-radius: 25px;
+}
+.btn_red{
+    background-color: red;
+    color: white;
+    border:1px solid red;
 }
 /* nav */
 nav{
-    height:120px ;
+    height:60px ;
     background-color: white;
+}
+.menus_container{
+    line-height: 60px;
 }
 .menu_main li{
     list-style: none;
@@ -26,20 +36,35 @@ nav{
     display: inline-block;
 }
 /* JUMBOTRON */
-.jumbotron_back{
-    margin-top: 200px;
+.jumbotron{
+    margin-top: 90px;
     width: 100%;
-    height:600px;
+    height:800px;
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    /* test */
-    
+    background-position: top;
+    background-size: cover;   
 }
-.jumbotron_back img{
-    /* width: 100%; */
+.jumbo_position{
+    color: white;
+    margin: 0 auto;
+    width:90%;
+    height: 700px;
+}
+.jumbo_img img{
+    width:300px;
+}
+.jumbo_title{
+    margin:30px 0;
+}
+.jumbo_title h3{
+    font-size: 60px;
+}
+.jumbo_description{
+    margin:30px 0;
+}
+.jumbo_description p{
+    font-size: 25px;
 }
 .gallery{
     height: 120px;

@@ -12,11 +12,11 @@
 <body>
     <header>
         
-        <div class="container-fluid fixed-top my_fixed p-0">
+        <div class="container-fluid fixed-top my_fixed m-0 p-0">
             <div class="back_black">
-                <div class="logo float-end">
-                    <img src="img/sony_logo.svg" alt="logo sony">
-                </div><br>
+                <div class="d-flex flex-row-reverse align-items-center">
+                        <img class="logo" src="img/sony_logo.svg" alt="logo sony">
+                </div>
             </div>
             <nav>
                 <div class="row menus_container">
@@ -25,8 +25,8 @@
                             <img src="img/play_logo.svg" alt="playstation logo">
                         </div>
                     </div>
-                    <div class="col-10 col-sm-10 col-md-9 col-lg-9">
-                        <div class="menu_main d-none d-sx-none d-sm-none d-md-block d-lg-block">
+                    <div class="col-10 col-sm-10 col-md-10 col-lg-8">
+                        <div class="menu_main d-none d-sx-none d-sm-none d-md-none d-lg-block">
                             <ul>
                                 <li>
                                     <a href="#">Giochi</a>
@@ -49,9 +49,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-1 col-sm-1 col-md-2 col-lg-2">
+                    <div class="col-1 col-sm-1 col-md-1 col-lg-3">
                         <div class="burger_menu">
-                            <div class="menu d-none d-md-block">
+                            <div class="menu d-none d-sx-none d-sm-none d-md-none d-lg-block">
                                 <div class="menu_right">
                                     <ul>
                                         <li>
@@ -68,7 +68,7 @@
 
                             </div>
                         </div>
-                        <div class="burger d-md-none">
+                        <div class="burger d-lg-none">
                             <i class="fas fa-bars"></i>
                         </div>
                     </div>
@@ -80,11 +80,30 @@
     </header>
     <main>
         <div class="container-fluid p-0">
-            <div class="jumbotron_back">
-                <!-- <img src="img/jumbo-bg.png" alt=""> -->
+            <div class="row jumbotron">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="d-flex flex-column justify-content-end jumbo_position">
+                        <div class=" jumbo_elemnts">
+                            <div class="jumbo_img">
+                                <img src="img/returnal-hero-banner-logo.png" alt="">
+                            </div>
+                            <div class="jumbo_title">
+                                <h3>Rompi il cerchio</h3>
+                            </div>
+                            <div class="jumbo_description">
+                                <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+                            </div>
+                                <a class="my_btn btn_red" href="#" >Acquista ora</a>
+
+                        </div>
+                            
+                            
+                    </div>
+               
+                </div>
             </div>
         </div>
-        <div class="container pt-2">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-6 col-sm-4 col-md-4 col-lg-2">
                     <div class="gallery">
