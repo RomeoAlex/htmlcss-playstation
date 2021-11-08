@@ -3,6 +3,10 @@
     background-color: black;
     height:40px;
 }
+.back_tire{
+    background-color: #1f1f1f;
+    color: white;
+}
 .my_fixed{
     z-index: 1;
 }
@@ -80,8 +84,8 @@ margin-right: 20px;
 }
 /* JUMBOTRON */
 .jumbotron{
-    width: 100%;
-    height:800px;
+    /* width: 100%; */
+    min-height:800px;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;   
@@ -91,13 +95,14 @@ margin-right: 20px;
     background-image: url("../img/jumbo-bg.png");
 }
 .jumbo2{
+    margin-top: 100px;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 .jumbo_position{
     color: white;
     margin: 0 auto;
     width:90%;
-    height: 700px;
+    min-height: 700px;
 }
 .jumbo_img img{
     width:300px;
