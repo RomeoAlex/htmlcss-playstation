@@ -1,3 +1,4 @@
+/* COMMON */
 .back_black{
     background-color: black;
     height:30px;
@@ -19,6 +20,12 @@
     color: white;
     border:1px solid red;
 }
+.btn_Blue{
+    background-color: #2d64e6;
+    color: white;
+    border:1px solid #2d64e6;
+}
+
 /* nav */
 nav{
     height:60px ;
@@ -67,8 +74,20 @@ nav{
     font-size: 25px;
 }
 .gallery{
-    height: 120px;
+    border-radius: 25px;
+    overflow: hidden;
+    
 }
 .gallery img{
+    width: 100%;
+}
+.content_img img{
+    width:80%;
+}
+/* CONTENT */
+.img_link{
+    max-height: 300px;
+}
+.img_link img{
     width: 100%;
 }
