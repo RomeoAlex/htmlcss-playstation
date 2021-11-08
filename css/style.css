@@ -57,23 +57,21 @@ nav{
 }
 
 .chevron_link{
-    width: 15px;
+    width: 18px;
     margin-left: 5px;
 }
-.chevron_link_hover{
+.my_hover{
     display:none;
-    width: 15px;
-    margin-left: 5px;
 }
 
-.menu_main li a:hover , .menu_right li a:hover > .chevron_link 
-{
+.menu_main  a:hover > .my_hover_up ,
+ .menu_right  a:hover > .my_hover_up{
     display: none;
 }
 
-.menu_main li a:hover , .menu_right li a:hover > .chevron_link_hover 
-{
-    display: inline;
+.menu_main  a:hover > .my_hover ,
+ .menu_right  a:hover > .my_hover{
+    display: inline;  
 }
 .burger_menu{
 text-align: right;
