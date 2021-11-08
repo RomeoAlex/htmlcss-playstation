@@ -74,11 +74,16 @@ nav{
     font-size: 25px;
 }
 .gallery{
+    display: inline-block;
     border-radius: 25px;
-    overflow: hidden;
-    
+    padding: 5px;
+}
+.gallery:active , 
+.gallery:visited {
+    border: 2px solid #2d64e6;
 }
 .gallery img{
+    border-radius: 25px;
     width: 100%;
 }
 .content_img img{
