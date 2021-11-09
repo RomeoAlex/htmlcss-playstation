@@ -2,6 +2,7 @@
 .back_black{
     background-color: black;
     height:40px;
+    width:100%;
 }
 .back_tire{
     background-color: #1f1f1f;
@@ -10,7 +11,6 @@
 .my_fixed{
     z-index: 1;
 }
-
 .my_btn{
     text-decoration: none;
     padding:8px  15px;
@@ -31,7 +31,7 @@
 }
 /* HEADER */
 .logo{
-    margin:5px 10px;
+    margin:5px 20px;
 }
 .logo img{
     height:20px;
@@ -40,6 +40,7 @@
 nav{
     height:60px ;
     background-color: white;
+    width:100%;
 }
 .menus_container{
     line-height: 60px;
