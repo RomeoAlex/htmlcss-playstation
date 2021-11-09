@@ -85,7 +85,9 @@ margin-right: 20px;
 }
 /* JUMBOTRON */
 .jumbotron{
-    /* width: 100%; */
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
     min-height:800px;
     background-repeat: no-repeat;
     background-position: top;
