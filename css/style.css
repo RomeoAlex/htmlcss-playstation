@@ -1,14 +1,26 @@
 /* COMMON */
+
+.my_container_fluid{
+    width:100%;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
 .back_black{
     background-color: black;
     height:40px;
-    width:100%;
+
 }
 .back_tire{
     background-color: #1f1f1f;
     color: white;
 }
 .my_fixed{
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 1;
 }
 .my_btn{
@@ -31,7 +43,7 @@
 }
 /* HEADER */
 .logo{
-    margin:5px 20px;
+    /* margin:5px 20px; */
 }
 .logo img{
     height:20px;
@@ -48,7 +60,7 @@ nav{
 .menu_main li ,
 .menu_right li{
     /* max-width: 150px; */
-    margin-right:5px;
+    /* margin-right:5px; */
     list-style: none;
     display: inline-block;
 }
@@ -137,6 +149,7 @@ margin-right: 20px;
 }
 .content_img img{
     width:80%;
+    overflow: hidden;
 }
 /* CONTENT */
 .img_link{
